@@ -6,9 +6,9 @@ import Our from '@components/home/Our'
 import Request from '@components/home/Request'
 import YourDesign from '@components/home/YourDesign'
 import React from 'react'
-type Props = {}
 
-function home({}: Props) {
+
+function home() {
   return (
    <>
             <Home />    

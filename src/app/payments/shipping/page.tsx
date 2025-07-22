@@ -1,9 +1,9 @@
 import React from 'react'
 import Shipping from './Shipping'
 
-type Props = {}
 
-function page({}: Props) {
+
+function page() {
   return (
     <div><Shipping/></div>
   )

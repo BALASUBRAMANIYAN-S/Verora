@@ -1,9 +1,9 @@
 export default function Input({
   title,
-  onchange,
+  // onchange,
 }: {
   title: string;
-  onchange?: () => void;
+  // onchange?: () => void;
 }) {
   return (
     <div className="flex justify-center">

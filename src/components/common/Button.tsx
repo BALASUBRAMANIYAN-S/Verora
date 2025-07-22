@@ -3,7 +3,7 @@ export default function Button({
   onClick,
   varient,
 }: {
-  title: any;
+  title: string;
   onClick?: () => void;
   varient: "card-btn" | "default" | "Hero-btn" | "payment";
 }) {

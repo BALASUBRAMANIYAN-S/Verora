@@ -3,8 +3,8 @@ import Button from "./Button";
 
 export default function ProductCard(
     {coverImage,itemImage,price,itemName,originalPrice,shwoDelete}:{
-        coverImage:any;
-        itemImage:any;
+        coverImage:string;
+        itemImage:string;
         itemName:string;
         price:string;
       originalPrice:string;

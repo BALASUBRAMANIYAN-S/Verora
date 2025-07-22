@@ -1,9 +1,8 @@
 import React from 'react'
 import Contact from './Contact'
 
-type Props = {}
 
-function page({}: Props) {
+function page() {
   return (
     <div><Contact/></div>
   )

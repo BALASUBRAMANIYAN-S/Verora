@@ -1,9 +1,8 @@
 import React from 'react'
 import About from './About'
 
-type Props = {}
 
-function page({}: Props) {
+function page() {
   return (
     <div className="">
         <About/>

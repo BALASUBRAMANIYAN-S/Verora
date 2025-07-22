@@ -1,9 +1,9 @@
 import React from 'react'
 import Checkout from './Checkout'
 
-type Props = {}
 
-function page({}: Props) {
+
+function page() {
   return (
     <div><Checkout/></div>
   )
