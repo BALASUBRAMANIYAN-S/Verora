@@ -7,7 +7,7 @@ export default function BackButton({
   
  
 }: {
-  title: any;
+  title:string;
   onClick?: () => void;
 }) {
 

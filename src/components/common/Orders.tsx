@@ -11,7 +11,7 @@ export default function Orders({
 }: {
   title: string;
   Ordertitle: string;
-  Price: any;
+  Price: string | number;
 }) {
   const router = useRouter();
 
