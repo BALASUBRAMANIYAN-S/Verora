@@ -44,7 +44,6 @@ function FavouriteContainer() {
       </div>
       <div className="flex justify-center mt-28">
         <Link href="/">
-          {" "}
           <Button title={"Back to home"} varient={"default"} />
         </Link>
       </div>

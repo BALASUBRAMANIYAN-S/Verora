@@ -1,5 +1,5 @@
 import ProductCard from "../common/ProductCard";
-
+import Link from "next/link";
 function Category() {
   return (
     <div>
@@ -42,7 +42,9 @@ function Category() {
       </center>
       <center>
         <button className="rounded-3xl bg-transparent border-2 border-[#865CBD] text-[#865CBD] p-2 mt-16">
-          <p className="pl-4 pr-4">View Collection</p>
+          <Link href={"/collection"}>
+            <p className="pl-4 pr-4">View Collection</p>
+          </Link>
         </button>
       </center>
     </div>

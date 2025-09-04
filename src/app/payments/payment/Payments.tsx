@@ -8,8 +8,8 @@ function Payments() {
     <div>
       <Orders Ordertitle="Order Summary" title="Checkout" Price="Rs.899" />
       <div className="mt-8 mb-5">
-        <PriceDetailsCard />
-        <div>
+        <div className="mx-4"><PriceDetailsCard /></div>
+        <div className="font-bold ml-4">
           <p>Payment Methods</p>
         </div>
         <div className="items-center text-[12px] mt-6 mx-4 rounded-xl border-[1px]">
@@ -61,7 +61,7 @@ function Payments() {
           <p>Cash on Delivery</p></span>  
           <FaChevronDown/>
         </div>
-        <Button title="Pay now" varient="payment"/>
+       <div className="mx-3"><Button title="Pay now" varient="payment"/></div> 
       </div>
     </div>
   );

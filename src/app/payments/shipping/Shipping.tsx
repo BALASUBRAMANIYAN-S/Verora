@@ -7,13 +7,13 @@ function Shipping() {
   return (
     <div>
       <Orders Ordertitle="Shipping" title="Checkout" Price="Rs.899" />
-      <OrdersCard
+     <div className="mx-4"> <OrdersCard
         title="White Vine Embroidery Tee"
         colour="White"
         size="M"
         price={899}
         originalPrice={1299}
-      />
+      /> </div>
 
       <div className="mb-8">
         <div className="items-center text-[12px]  mt-6 mx-4 rounded-xl border-[1px]">
@@ -24,7 +24,7 @@ function Shipping() {
           <ul className="flex flex-col gap-2 my-7 mx-3">
             <li className="font-[500]">+91 88934 45690</li>
             <li className="font-[500]">prakash@gmail.com</li>
-          </ul>{" "}
+          </ul>
           <div className="border-b-2 mx-2"></div>
           <div className="flex text-[12px] justify-between mx-3 mt-6">
             <p>Contact</p>
@@ -38,9 +38,10 @@ function Shipping() {
           </div>
         </div>
       </div>
-      <PriceDetailsCard />
+      <div className="mx-3"><PriceDetailsCard /></div>
+      
       <Link href={"/payments/payment"}>
-        <Button title="Continue to Payment" varient="payment" />
+       <div className="mx-4"> <Button title="Continue to Payment" varient="payment" /></div>
       </Link>
     </div>
   );

@@ -1,1 +1,36 @@
 @import "tailwindcss";
+
+.swiper-pagination-bullet {
+  background-color: white !important; /* Bullet color */
+ 
+}
+@media screen and (max-width: 320px) {
+  .searchBar {
+    width: 60%; 
+ }
+}
+*{
+    font-family: "Montserrat", sans-serif;
+}
+.custom-verora{
+  color: #000;
+font-family: "Playfair Display";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.product-slider .swiper-slide.swiper-slide-next {
+  left: -130px;
+}
+@media screen and (max-width: 320px) {
+  .product-slider .swiper-slide.swiper-slide-next {
+    left: -40px;
+ }
+}
+@media screen and (max-width: 380px) {
+  .product-slider .swiper-slide.swiper-slide-next {
+    left: -75px;
+ }
+}

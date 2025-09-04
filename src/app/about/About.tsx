@@ -30,8 +30,8 @@ function About() {
               alt="India"
               className="w-5"
               src="http://purecatamphetamine.github.io/country-flag-icons/3x2/IN.svg"
-            />{" "}
-            Made in India{" "}
+            />
+            Made in India
           </li>
           <li>❤️ Crafted with Care</li>
           <li>🎗️ Designed for You</li>
