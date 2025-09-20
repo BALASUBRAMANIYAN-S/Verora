@@ -1,6 +1,6 @@
-import BackButton from "../../components/common/BackButton";
+import BackButton from "../common/BackButton";
 import { countries } from "country-flag-icons";
-import Request from "../../components/home/Request";
+import Request from "../home/Request";
 countries.includes("IND") === true;
 countries.includes("ZZ") === false;
 
