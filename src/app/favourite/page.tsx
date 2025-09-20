@@ -1,5 +1,5 @@
 import React from 'react'
-import FavouriteContainer from './FavouriteContainer'
+import FavouriteContainer from '../../components/Favourite/FavouriteContainer'
 
 function page() {
   return (

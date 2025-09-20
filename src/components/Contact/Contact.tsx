@@ -1,8 +1,8 @@
-import BackButton from "../../components/common/BackButton";
-import Button from "../../components/common/Button";
-import Input from "../../components/common/Input";
-import TextArea from "../../components/common/Teaxtarea";
-import Request from "../../components/home/Request";
+import BackButton from "../common/BackButton";
+import Button from "../common/Button";
+import Input from "../common/Input";
+import TextArea from "../common/Teaxtarea";
+import Request from "../home/Request";
 
 function Contact() {
   return (

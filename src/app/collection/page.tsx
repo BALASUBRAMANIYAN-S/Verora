@@ -1,5 +1,5 @@
 import React from 'react'
-import Collection from './Collection'
+import Collection from '../../components/Collection/Collection'
 
 function page() {
   return (

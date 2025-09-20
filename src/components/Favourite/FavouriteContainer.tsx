@@ -1,7 +1,7 @@
-import BackButton from "../../components/common/BackButton";
-import Button from "../../components/common/Button";
-import ProductCard from "../../components/common/ProductCard";
-import Request from "../../components/home/Request";
+import BackButton from "../common/BackButton";
+import Button from "../common/Button";
+import ProductCard from "../common/ProductCard";
+import Request from "../home/Request";
 import Link from "next/link";
 function FavouriteContainer() {
   return (
