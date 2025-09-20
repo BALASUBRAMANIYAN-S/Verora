@@ -70,7 +70,7 @@ function Home() {
             </div>
           </SwiperSlide>
         </Swiper>
-      </div> 
+      </div>
       {/* Custom Arrows */}
       <div className="absolute z-10 top-[540px]  w-full flex justify-between px-6 transform -translate-y-1/2">
         <button className="custom-prev bg-transparent text-white border-white border-1 p-1 rounded-full shadow">

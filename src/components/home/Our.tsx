@@ -1,5 +1,5 @@
 import {
-  FaCubes, 
+  FaCubes,
   FaTruck,
   FaCut,
   FaCheckCircle,

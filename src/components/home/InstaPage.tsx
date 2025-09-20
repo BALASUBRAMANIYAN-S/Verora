@@ -1,5 +1,5 @@
 "use client";
- 
+
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
@@ -23,17 +23,16 @@ function InstaPage() {
 
       <div className="mt-8 px-4">
         <Swiper
-           spaceBetween={10}
-           slidesPerView={1} 
-            pagination={{ clickable: true }}
+          spaceBetween={10}
+          slidesPerView={1}
+          pagination={{ clickable: true }}
           loop={true}
-          modules={[ Navigation, Autoplay]}
+          modules={[Navigation, Autoplay]}
           navigation={{
             nextEl: ".custom-next",
             prevEl: ".custom-prev",
           }}
           className="mySwiper"
-         
         >
           <SwiperSlide>
             <img
@@ -65,7 +64,6 @@ function InstaPage() {
           <FaChevronLeft />
         </div>
         <div className="custom-next">
-     
           <FaChevronRight />
         </div>
       </div>
